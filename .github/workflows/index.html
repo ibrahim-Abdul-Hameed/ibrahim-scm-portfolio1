@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ibrahim Abdul Hameed | Procurement & SCM</title>
+<meta name="description" content="Ibrahim Abdul Hameed — Procurement Executive and SCM Analyst. Sourcing, vendor coordination, purchase orders and SAP MM / P2P.">
+<meta name="theme-color" content="#071713">
+<link rel="preload" as="image" href="/.netlify/images?url=/img/ibrahim-profile.png&w=560&fm=webp">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- Preloader: spinning cricket ball -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-ball"><span class="seam"></span></div>
+  <div class="loader-text">Walking out to the crease<span class="dots"><i>.</i><i>.</i><i>.</i></span></div>
+  <div class="loader-count"><span id="loadCount">0</span>%</div>
+  <div class="loader-wipe"></div>
+</div>
+
+<canvas id="network" class="network" aria-hidden="true"></canvas>
+<div class="floodlight fl-1" aria-hidden="true"></div>
+<div class="floodlight fl-2" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+<div class="progress" id="progress"></div>
+
+<header class="top" id="top">
+  <a class="brand" href="#kickoff">Ibrahim Abdul Hameed</a>
+  <nav id="nav">
+    <a href="#kickoff">Toss & Opening</a>
+    <a href="#profile">Player Profile</a>
+    <a href="#skills">Game Plan</a>
+    <a href="#p2p">The Delivery</a>
+    <a href="#highlights">Highlights</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#contact">The Final Over</a>
+    <span class="nav-indicator" id="navIndicator"></span>
+  </nav>
+  <a class="btn resume magnetic" href="/files/Ibrahim_Abdul_Hameed_Resume.pdf" download="Ibrahim_Abdul_Hameed_Resume.pdf"><span>Download Resume</span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero section" id="kickoff">
+  <div class="orb"></div>
+  <div class="orb orb-2"></div>
+  <svg class="ball-arc" viewBox="0 0 1200 600" preserveAspectRatio="none" aria-hidden="true">
+    <path id="arcPath" d="M-40 520 Q 300 40 620 380 T 1260 120" fill="none" stroke="url(#arcGrad)" stroke-width="2" stroke-dasharray="6 10"/>
+    <defs><linearGradient id="arcGrad" x1="0" x2="1"><stop offset="0" stop-color="#d6ff57" stop-opacity="0"/><stop offset=".5" stop-color="#d6ff57" stop-opacity=".45"/><stop offset="1" stop-color="#d6ff57" stop-opacity="0"/></linearGradient></defs>
+    <circle r="9" fill="#c8102e"><animateMotion dur="7s" repeatCount="indefinite" rotate="auto"><mpath href="#arcPath"/></animateMotion></circle>
+  </svg>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow reveal">01 · Toss & Opening · At the Crease</div>
+      <h1 class="split" aria-label="Ibrahim Abdul Hameed"><span class="line">IBRAHIM ABDUL HAMEED</span><span class="line accent"></span></h1>
+      <p class="lead reveal">
+        <span class="role-rotator">
+          <span class="role-prefix">Playing as</span>
+          <span class="typed" id="typed">Procurement Executive</span><span class="caret">|</span>
+        </span>
+        <br>Purchase Order Management, Vendor Management, Sourcing, ERP, SCM, and SAP MM / P2P 
+      </p>
+      <div class="actions reveal">
+        <a class="btn magnetic" href="#profile"><span>Explore my profile ↘</span></a>
+        <a class="btn alt magnetic" href="#contact"><span>Get in touch</span></a>
+      </div>
+      <p class="muted reveal location"><span class="live-dot"></span>Chennai, Tamil Nadu · Open to relocation · Immediate availability</p>
+    </div>
+    <aside class="hero-card tilt reveal" data-tilt>
+      <div class="card-glare"></div>
+      <div class="card-head"><div class="eyebrow">Player card · SCM</div><div class="badge-live">IN FORM</div></div>
+      <div class="photo-frame">
+        <img class="profile-photo" src="/.netlify/images?url=/img/ibrahim-profile.png&w=560&fm=webp" alt="Ibrahim Abdul Hameed" width="280" height="350">
+        <span class="frame-corner c1"></span><span class="frame-corner c2"></span><span class="frame-corner c3"></span><span class="frame-corner c4"></span>
+      </div>
+      <div class="jersey">#01</div>
+      <h2>Procurement<br> & Supply Chain</h2>
+      <p class="muted">Sourcing · Vendor management · Material follow-up · Cost management</p>
+      <div class="stats">
+        <div class="stat"><strong>SCM</strong><small>Operations</small></div>
+        <div class="stat"><strong>SAP MM</strong><small>Training</small></div>
+        <div class="stat"><strong>P2P</strong><small>Process</small></div>
+      </div>
+    </aside>
+  </div>
+  <a class="scroll-cue" href="#profile" aria-label="Scroll down"><span class="cue-ball"></span></a>
+</section>
+
+<div class="ticker"><div class="ticker-track"><span>PROCUREMENT • SOURCING • SAP MM • P2P • VENDOR COORDINATION • INVENTORY • COST MANAGEMENT • </span><span>PROCUREMENT • SOURCING • SAP MM • P2P • VENDOR COORDINATION • INVENTORY • COST MANAGEMENT • </span></div></div>
+<div class="ticker reverse"><div class="ticker-track"><span>PURCHASE ORDERS ✦ RFQ ✦ GOODS RECEIPT ✦ INVOICE VERIFICATION ✦ VENDOR MASTER ✦ MRP ✦ LOGISTICS ✦ </span><span>PURCHASE ORDERS ✦ RFQ ✦ GOODS RECEIPT ✦ INVOICE VERIFICATION ✦ VENDOR MASTER ✦ MRP ✦ LOGISTICS ✦ </span></div></div>
+
+<!-- SCOREBOARD -->
+<section class="scoreboard-wrap" aria-label="Scoreboard">
+  <div class="wrap scoreboard reveal">
+    <div class="score-title"><span class="led"></span>LIVE SCOREBOARD</div>
+    <div class="score"><strong class="count" data-to="4">0</strong><small>Professional roles</small></div>
+    <div class="score"><strong class="count" data-to="29">0</strong><small>Core skills</small></div>
+    <div class="score"><strong class="count" data-to="3">0</strong><small>Languages</small></div>
+    <div class="score"><strong class="count" data-to="2">0</strong><small>CS degrees</small></div>
+    <div class="score"><strong class="count" data-to="1">0</strong><small>SAP S/4HANA certification</small></div>
+  </div>
+</section>
+
+<!-- PROFILE -->
+<section class="section" id="profile">
+  <div class="wrap">
+    <div class="eyebrow reveal">02 · Player profile</div>
+    <h2 class="heading mask-reveal"><span>Player Profile</span></h2>
+    <div class="cards stagger">
+      <article class="card spot reveal"><div class="card-icon">🏏</div><div class="eyebrow">Playing Role</div><h3>Procurement Executive / SCM Analyst</h3><p class="muted">Detail-oriented procurement professional experienced in sourcing, vendor coordination, purchase orders, inventory, transport coordination, price negotiation, ERP and material follow-up.</p></article>
+      <article class="card spot reveal"><div class="card-icon">🎯</div><div class="eyebrow">Career objective</div><h3>Supply Chain · SAP MM · P2P</h3><p class="muted">Seeking opportunities in SCM, SAP MM End User / Support, P2P and Procurement to support smooth supply-chain operations.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="eyebrow reveal">03 · Skills</div>
+    <h2 class="heading mask-reveal"><span>Game Plan Board</span></h2>
+    <p class="muted reveal">Choose a formation to view the skills you bring to the team.</p>
+    <div class="skilltabs reveal" role="tablist">
+      <button class="active" data-group="all">Full squad <em>29</em></button>
+      <button data-group="proc">Procurement <em>7</em></button>
+      <button data-group="sap">SAP MM / P2P <em>7</em></button>
+      <button data-group="ops">SCM Operations <em>6</em></button>
+      <button data-group="tools">Tools <em>6</em></button>
+      <span class="tab-slider" id="tabSlider"></span>
+    </div>
+    <div class="skill-field reveal">
+      <svg class="field-svg" viewBox="0 0 400 400" aria-hidden="true">
+        <circle cx="200" cy="200" r="190" /><circle cx="200" cy="200" r="110" class="inner"/>
+        <rect x="185" y="140" width="30" height="120" rx="3" class="pitch"/>
+      </svg>
+      <div id="skillset">
+        <span class="pill" data-cat="proc">Procurement Management</span><span class="pill" data-cat="proc">Vendor Sourcing</span><span class="pill" data-cat="proc">Purchase Order Management</span><span class="pill" data-cat="proc">Purchase Requisition</span><span class="pill" data-cat="proc">RFQ Management</span><span class="pill" data-cat="proc">Price Negotiation</span><span class="pill" data-cat="proc">Vendor Evaluation</span>
+        <span class="pill" data-cat="sap">SAP MM</span><span class="pill" data-cat="sap">Procure-to-Pay (P2P)</span><span class="pill" data-cat="sap">Material Master Data</span><span class="pill" data-cat="sap">Vendor Master Data</span><span class="pill" data-cat="sap">Goods Receipt / Issue</span><span class="pill" data-cat="sap">Invoice Verification</span><span class="pill" data-cat="sap">Source Determination</span>
+        <span class="pill" data-cat="ops">Inventory Management</span><span class="pill" data-cat="ops">MRP / Demand Forecasting</span><span class="pill" data-cat="ops">Stock Reconciliation</span><span class="pill" data-cat="ops">Logistics & Transport</span><span class="pill" data-cat="ops">Warehouse Management</span><span class="pill" data-cat="ops">Material Follow-up</span>
+        <span class="pill" data-cat="tools">ERP Systems</span><span class="pill" data-cat="tools">MS Excel</span><span class="pill" data-cat="tools">Word</span><span class="pill" data-cat="tools">Outlook</span><span class="pill" data-cat="tools">Zoho Mail</span><span class="pill" data-cat="tools">Reporting & Documentation</span><span class="pill" data-cat="tools">Netlify</span><span class="pill" data-cat="tools">Github</span><span class="pill" data-cat="tools">Claude</span><span class="pill" data-cat="tools">ChatGPT</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- P2P DELIVERY -->
+<section class="section" id="p2p">
+  <div class="wrap">
+    <div class="eyebrow reveal">04 · The Delivery</div>
+    <h2 class="heading mask-reveal"><span>From run-up to boundary: the P2P cycle</span></h2>
+    <p class="muted reveal">Every purchase follows a disciplined end to end procurement process.Scroll to follow the ball down the pitch.</p>
+    <div class="p2p" id="p2pTrack">
+      <div class="p2p-line"><div class="p2p-fill" id="p2pFill"></div><div class="p2p-ball" id="p2pBall"></div></div>
+      <ol class="p2p-steps">
+        <li class="step"><span class="ball-no">1</span><h4>Purchase Requisition</h4><p>Capture the need with quantity, specs and BOM.</p></li>
+        <li class="step"><span class="ball-no">2</span><h4>Sourcing & RFQ</h4><p>Find vendors, request quotes, compare pricing.</p></li>
+        <li class="step"><span class="ball-no">3</span><h4>Purchase Order</h4><p>Negotiate terms and release the PO.</p></li>
+        <li class="step"><span class="ball-no">4</span><h4>Goods Receipt</h4><p>Follow up on materials and receive against the PO.</p></li>
+        <li class="step"><span class="ball-no">5</span><h4>Invoice Verification</h4><p>Three-way match of PO, GR and invoice.</p></li>
+        <li class="step"><span class="ball-no">6</span><h4>Payment</h4><p>Hand off to FI, vendor paid, the over is complete.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section class="section" id="highlights">
+  <div class="wrap">
+    <div class="eyebrow reveal">05 · Innings Highlights</div>
+    <h2 class="heading mask-reveal"><span>Career Innings</span></h2>
+    <div class="cards stagger">
+      <article class="card spot tilt reveal" data-tilt><div class="card-glare"></div><div class="date">DEC 2025 – AUG 2026 · CHENNAI</div><h3>Water DNA Private Limited</h3><p><b>SCM Analyst / Procurement Executive</b></p><p class="muted">Procured raw materials, components and spare parts for RO plant and vessel manufacturing. Coordinated sourcing, quotations, pricing, delivery, BOM/specifications, internal teams and ERP records.</p><span class="pill">SS / MS</span><span class="pill">CPVC / UPVC</span><span class="pill">Cost negotiation</span><div class="card-num">01</div></article>
+      <article class="card spot tilt reveal" data-tilt><div class="card-glare"></div><div class="date">JUNE 2022 – APRIL 2025 · TRICHY</div><h3>Arthur Grand Technologies</h3><p><b>Sourcing Specialist</b></p><p class="muted">Identified vendors for business/resource requirements, maintained sourcing databases and trackers, coordinated stakeholders, supported rate negotiation and monitored sourcing progress.</p><span class="pill">Vendor sourcing</span><span class="pill">Stakeholder coordination</span><span class="pill">Reporting</span><div class="card-num">02</div></article>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="section" id="timeline">
+  <div class="wrap">
+    <div class="eyebrow reveal">06 · Career & education</div>
+    <h2 class="heading mask-reveal"><span>Career Scorecard</span></h2>
+    <div class="timeline" id="timelineEl">
+      <div class="timeline-fill" id="timelineFill"></div>
+      <div class="event reveal"><div class="date">DEC 2025 – AUG 2026</div><h3>SCM Analyst / Procurement Executive · Water DNA Private Limited</h3><p class="muted">Raw materials and components procurement, vendor follow-up, manufacturing coordination, cost monitoring and ERP / Excel / SAP MM records.</p></div>
+      <div class="event reveal"><div class="date">MAY 2025 – JULY 2025</div><h3>SAP MM Training · ASAP Academy, Trichy</h3><p class="muted">P2P cycle, PR/PO, vendor and material master, GR/GI, stock transfer, invoice verification, three-way matching and SAP MM–FI integration.</p></div>
+      <div class="event reveal"><div class="date">JUNE 2022 – APRIL 2025</div><h3>Sourcing Specialist · Arthur Grand Technologies, Trichy</h3><p class="muted">Vendor identification, sourcing operations, negotiation support, database maintenance and sourcing reports.</p></div>
+      <div class="event reveal"><div class="date">SEP 2021 – MAR 2022</div><h3>SAP MM Intern · Yaadhum International Technologies, Trichy</h3><p class="muted">Supported PR/PO processing, P2P, vendor documentation, inventory tracking and purchase-document verification.</p></div>
+      <div class="event reveal"><div class="date">2021 · EDUCATION</div><h3>M.Sc. Computer Science</h3><p class="muted">MIET Arts and Science College, Trichy</p></div>
+      <div class="event reveal"><div class="date">2019 · EDUCATION</div><h3>B.Sc. Computer Science</h3><p class="muted">MIET Arts and Science College, Trichy</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TROPHIES -->
+<section class="section" id="trophies">
+  <div class="wrap">
+    <div class="eyebrow reveal">07 · Certifications & toolkit</div>
+    <h2 class="heading mask-reveal"><span>Awards & Milestones</span></h2>
+    <div class="cards cards-4 stagger">
+      <article class="card spot flip reveal"><div class="trophy">🏆</div><div class="eyebrow">Certification</div><h3>SAP S/4HANA (MM)</h3><p class="muted">ASAP Academy · May 2025 – July 2025</p></article>
+      <article class="card spot flip reveal"><div class="trophy">🧰</div><div class="eyebrow">Software & tools</div><h3>Everyday toolkit</h3><p class="muted">Microsoft Word, Microsoft Excel, Microsoft Outlook, Zoho Mail, ERP and SAP MM.</p></article>
+      <article class="card spot flip reveal"><div class="trophy">🗣️</div><div class="eyebrow">Languages</div><h3>Tamil · English · Urdu</h3><p class="muted">Tamil — Native · English — Professional · Urdu — Moderate</p></article>
+      <article class="card spot flip reveal"><div class="trophy">✈️</div><div class="eyebrow">Availability</div><h3>Immediate · Willing to relocate</h3><p class="muted">Ready to discuss procurement, SCM and SAP MM opportunities.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="eyebrow reveal">08 · The Final Over</div>
+    <h2 class="heading mask-reveal"><span>Let’s connect.</span></h2>
+    <div class="over-balls reveal" aria-hidden="true"><span>1</span><span>4</span><span>•</span><span>6</span><span>2</span><span class="six">6</span></div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <p class="lead">Looking for opportunities in Procurement, SCM, SAP MM End User / Support and P2P.</p>
+        <p class="contact-row"><b>Email</b><br><a class="contact-link" href="mailto:ibrahimabdulhameed718@gmail.com">ibrahimabdulhameed718@gmail.com</a> <button class="copy-btn" data-copy="ibrahimabdulhameed718@gmail.com" aria-label="Copy email">Copy</button></p>
+        <p class="contact-row"><b>Phone</b><br><a class="contact-link" href="tel:+918825853484">+91 8825853484</a> <button class="copy-btn" data-copy="+918825853484" aria-label="Copy phone number">Copy</button></p>
+        <p class="contact-row"><b>LinkedIn</b><br><a class="contact-link" href="https://linkedin.com/in/ibrahim-abdul-hameed-609381241" target="_blank" rel="noopener">linkedin.com/in/ibrahim-abdul-hameed-609381241</a></p>
+      </div>
+      <div class="card spot tilt reveal contact-card" data-tilt><div class="card-glare"></div><div class="eyebrow">Profile details</div><h3>Ibrahim Abdul Hameed</h3><p class="muted">Procurement Executive · SCM Analyst</p><p class="muted">Chennai, Tamil Nadu, India<br>Immediate availability · Willing to relocate</p><a class="btn magnetic" href="mailto:ibrahimabdulhameed718@gmail.com?subject=Procurement%20Opportunity"><span>Contact me ↗</span></a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="wrap footer-inner"><span>© Ibrahim Abdul Hameed · Procurement & Supply Chain</span><span class="stumps" aria-hidden="true"><i></i><i></i><i></i><b class="bail"></b><b class="bail b2"></b></span></div></footer>
+
+<a href="#kickoff" class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="21" class="ring-bg"/><circle cx="24" cy="24" r="21" class="ring" id="topRing"/></svg>
+  <span class="mini-ball"></span>
+</a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="/main.js" defer></script>
+</body>
+</html>
