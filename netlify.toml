@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+
+[[headers]]
+  for = "/files/*"
+  [headers.values]
+    Content-Disposition = "attachment"
